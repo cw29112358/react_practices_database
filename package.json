@@ -1,0 +1,39 @@
+{
+  "name": "react_practices_database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "react_practices_database": "www.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cw29112358/react_practices_database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cw29112358/react_practices_database/issues"
+  },
+  "homepage": "https://github.com/cw29112358/react_practices_database#readme",
+  "dependencies": {
+    "@koa/multer": "^2.0.2",
+    "config": "^3.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^3.6.0",
+    "koa-router": "^8.0.8",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.9.9",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.3"
+  }
+}
